@@ -1,0 +1,88 @@
+/* 헤더 */
+header{
+  width: 360px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+}
+.header_icon{
+  height: 56px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  overflow: hidden;
+}
+header h1{
+  font-size: 20px;
+  height: 30px;
+  padding-left: 16px;
+}
+header h1 img{
+ width: 30px;
+ margin-right: 5px;
+}
+
+/* 섹션공통 */
+.copy{ padding-bottom: 40px;}
+section, .copy{
+  margin: 0 16px;
+}
+article{
+  margin-top: 50px;
+}
+article h2{
+  margin-bottom: 20px;
+}
+article h2 img{
+  margin-right: 8px;
+}
+article li{
+  cursor: pointer;
+}
+
+/* 아티클 */
+section article:not(:first-child) div{
+  width: 328px;
+  height: 102px;
+  box-shadow: 0px 0px 6px #B2B2B2;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+section article:first-child div{
+  width: 328px;
+  height: 60px;
+  box-shadow: 0px 0px 6px #B2B2B2;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+article ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article ul li{
+  width: 124px;
+  margin-left: 20px;
+}
+section article:not(:first-child) ul li:nth-child(1){
+  margin-bottom: 20px;
+}
+article .my{
+  height: 60px;
+}
+.copy ul{
+  width: 241px;
+  display: flex;
+  justify-content: space-between;
+  margin: 51px auto 0;
+}
+.copy ul li{
+  font-size: 14px;
+  color: #B2B2B2;
+}
+
